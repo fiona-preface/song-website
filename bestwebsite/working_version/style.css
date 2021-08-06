@@ -1,0 +1,82 @@
+body {
+	background-color: lightgoldenrodyellow;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#enter-button {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.sub-titles {
+	font-family: 'Source Code Pro', monospace;
+}
+
+.album-covers {
+	height: 330px;
+	width: 330px;
+	border-radius: 20px;
+	object-fit: cover;
+	padding: 20px;
+	margin: 10px;
+}
+
+#top-banner {
+	display: flex;
+}
+
+/* 1) set the banner image to relative*/
+/*DO NOT RETYPE THE BANNER GO CHANGE YOUR ONE FROM YESTERDAY!!!!!!*/
+#banner {
+	width: 100%;
+	position: relative;
+}
+
+/* 2) set the login elements to absolute*/
+#login-elements {
+	position: absolute;
+}
+
+/*call the loginIcon and move it*/
+
+#loginIcon {
+	width: 5%;
+	transform: translate(30px, 20px);
+}
+
+/*call the menuIcon and move it*/
+#menuIcon {
+	width: 5%;
+	transform: translate(40px, 20px);
+}
+
+/*MOVE THE TITLE TEXT*/
+#top-banner > h1 {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	font-size: 80px;
+	font-weight: bold;
+	line-height: 1.6;
+	letter-spacing: 5px;
+	color: white;
+	transform: translate(-1500px, 100px);
+}
+
+#cards {
+	display: flex;
+	justify-content: space-evenly;
+	object-fit: cover;
+}
+
+p {
+	justify-content: center;
+}
+
